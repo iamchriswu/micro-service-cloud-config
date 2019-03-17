@@ -1,6 +1,8 @@
 spring:
   application:
     name: micro-service-zipkin
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 9411
