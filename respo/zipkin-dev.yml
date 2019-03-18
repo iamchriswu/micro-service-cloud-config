@@ -3,6 +3,10 @@ spring:
     name: micro-service-zipkin
   main:
     allow-bean-definition-overriding: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
 server:
   port: 9411
